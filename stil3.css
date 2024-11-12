@@ -1,0 +1,48 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:beige;
+    padding: 15px;
+    }
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+     }
+
+nav li {
+   display: inline-block;
+   display: inline-block;
+   margin-right: 50px;
+     }
+
+nav a {
+   text-decoration: none;
+   color: #333;
+     }
+h1{
+  font-weight: bold;
+  text-align: center;
+}
+.all{
+  font-family: Playfair+Display;
+  background-color: beige;
+  color: #333;
+  margin-top: 5%;
+  text-align:inherit;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 20px;
+  border-radius: 2%;
+
+}
+.container{
+  background-color:beige;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
+  font-size: 20px;
+}
