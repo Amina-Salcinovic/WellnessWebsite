@@ -6,6 +6,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" media="print" href="print.css">
+    <link rel="stylesheet" media="screen" href="screen.css">
+    <link rel="stylesheet" media="screen and (min-width: 480px)" href="example1.css">
+    <link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 900px)" href="example2.css">
+
 </head>
 <body>
     <nav>
@@ -14,7 +22,7 @@
             <li><a href="services.html">Services</a></li>
             <li><a href="membership.html">Membership</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contactus.html">Contact</a></li>
         </ul>
         </nav>
 <div class="text1">
@@ -23,6 +31,44 @@
 At our Wellness Center, we have an array of services that will help in nurturing the body, mind, and soul. We make sure that every client has an individual touch because this is a custom order. Take a look at the services that we have at the table and commence your journey towards achieving a quality life that is in balance.
 </p>
 </div>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Our Wellness Services</h2>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Service</th>
+                <th scope="col">Duration</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Massage Therapy</td>
+                <td>60 min</td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td>Yoga Session</td>
+                <td>45 min</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Facial Treatment</td>
+                <td>30 min</td>
+                <td>$60</td>
+            </tr>
+            <tr>
+                <td>Guided Meditation</td>
+                <td>30 min</td>
+                <td>$40</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
 <div class="text2">
 <h3>Yoga & Meditation Classes</h3>
 <p>
@@ -35,8 +81,7 @@ Benefits: Stress relief, increased flexibility, mental clarity, improved sleep, 
 </p>
 <h3> Holistic Health Coaching</h3>
 <p>   
-Our certified wellness coaches are dedicated to helping you reach your health goals. We take a personalized approach, crafting a roadmap that fits your unique lifestyle, health challenges, and aspirations. Whether it's weight management or developing sustainable healthy habits, we offer guidance, accountability, and motivation throughout your journey.
-</p><p>
+Our certified wellness coaches are dedicated to helping you reach your health goals. We take a personalized approach, crafting a roadmap that fits your unique lifestyle, health challenges, and aspirations. Whether it's weight management or developing sustainable healthy habits, we offer guidance, accountability, and motivation throughout your journey.</p><p>
 Services: Tailored health plans, goal setting, emotional wellness support, lifestyle transformations
 Benefits: Increased energy, enhanced mental and emotional well-being, healthier habits, weight loss, improved vitality
 </p>
@@ -58,6 +103,32 @@ Relax and rejuvenate with our selection of therapeutic massage and body treatmen
 Services: Swedish massage, Deep tissue massage, Hot stone therapy, Aromatherapy massage, Detox body wraps
 Benefits: Reduced stress, improved circulation, muscle relaxation, improved skin texture, enhanced mood
 </p>
+<div class="container mt-5">
+    
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#wellnessModal">
+        Book NOW!
+    </button>
+    
+    <div class="modal fade" id="wellnessModal" tabindex="-1" aria-labelledby="wellnessModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="wellnessModalLabel">Massage Therapy</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Our massage therapy service helps to relieve stress, reduce muscle tension, and improve overall well-being. A 60-minute session will leave you feeling refreshed and rejuvenated.</p>
+                    <p><strong>Duration:</strong> 60 minutes</p>
+                    <p><strong>Price:</strong> $80</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </div>
 <div class="text6">
 <h3>Mindfulness & Stress Management Workshops</h3>
@@ -74,7 +145,10 @@ Benefits: Reduced anxiety, improved focus, emotional balance, better sleep, ment
 Treat yourself to luxurious spa treatments designed to pamper and restore your body. From facials and skincare treatments to body massages and scrubs, our spa services help you relax, rejuvenate, and enhance your natural beauty. Our holistic approach utilizes natural products to nourish your skin, leaving you feeling refreshed, restored, and radiant.
 </p><p>
 Services: Signature facials, Hydrating body treatments, Skin rejuvenation therapies, Hand and foot treatments
-Benefits: Glowing skin, relaxation, detoxification, improved skin elasticity, rejuvenated appearance
+Benefits: Glowing skin, relaxation, detoxification, improved skin elasticity, rejuvenated appearance<br>
+<p>
+    You can find more information about these treatments <a  href="https://www.maabspa.ba/facial" target="_blank">by clicking here.</a>
+</p>
 </p>
 </div>
 <div class="text8">
@@ -92,7 +166,8 @@ Benefits: Stress relief, clarity of mind, deep relaxation, connection with like-
 Our certified personal trainers will design a fitness plan specifically for your goals, whether you want to lose weight, build strength, or enhance your overall fitness. With an emphasis on functional movement, strength training, and cardiovascular health, we’ll support you in reaching your fitness objectives and cultivating a sustainable, active lifestyle. </p>
 <p>
 Services: One-on-one personal training, strength and conditioning, cardiovascular training, flexibility and mobility exercises
-Benefits: Increased strength, improved cardiovascular health, weight loss, better posture, enhanced endurance
+Benefits: Increased strength, improved cardiovascular health, weight loss, better posture, enhanced endurance<br>
+If you want to know more about personal training, you can visit <a href="https://www.gymguyz.com/training-services/" target="_blank">this page.</a></p>
 </p>
 </div>
 <div class="text10">
@@ -100,14 +175,55 @@ Benefits: Increased strength, improved cardiovascular health, weight loss, bette
 <p>
 No matter what your wellness goals are, we’re here to support you in reaching them. Our team of certified professionals is committed to helping you on your journey toward a healthier, more balanced life.<a href="contact.html"><br>Contact us</a> today to book your consultation or to find out more about our services.
 </p>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Wellness Services</h2>
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+       
+        <div class="col">
+            <div class="card">
+                <img src="massage1.jpg" class="card-img-top" alt="Massage Therapy">
+                <div class="card-body">
+                    <h5 class="card-title">Massage Therapy</h5>
+                    <p class="card-text">Relax and rejuvenate with a soothing 60-minute massage therapy session.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="yoga1.jpg" class="card-img-top" alt="Yoga Classes">
+                <div class="card-body">
+                    <h5 class="card-title">Yoga Classes</h5>
+                    <p class="card-text">Join our yoga sessions to improve flexibility, strength, and relaxation.</p>
+                    <a href="#" class="btn btn-primary">Join Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="face.jpg" class="card-img-top" alt="Facial Treatment">
+                <div class="card-body">
+                    <h5 class="card-title">Facial Treatment</h5>
+                    <p class="card-text">Treat your skin to a refreshing and revitalizing facial treatment.</p>
+                    <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="container">
+
+
+
+</div>
+<div class="container1">
     <footer>
-        <address>
-        Butmirska cesta 18, Ilidža</address>
-        Email: <a href="mailto:wellnes@gmail.com">wellnes@gmail.com</a><br>
-        Phone: <a href="tel: +12345678">tel: 12345678</a>
-    
+        <p>Foundations of Web Development</p>
+        <p>Amina Salčinović</p>
     </footer>
     </div>
 </body>

@@ -31,7 +31,6 @@ div{
   margin-top: 5%;
   text-align: start;
   font-size: 20px;
-  animation: fadeIn 2s ease-in-out forwards;
   padding: 1,5%;
   margin-left: 3%;
   margin-right: 3%;
@@ -39,41 +38,22 @@ div{
 h3{
   font-size: xx-large;
 }
-@keyframes fadeIn {
-  0% {
-      opacity: 0; 
-      transform: translateY(20px); 
-  }
-  100% {
-      opacity: 1;
-      transform: translateY(0); 
-  }
+
+
+.picture{
+  margin-left: 6%;
 }
-.container{
-  background-color:beige;
-  margin-left: 0%;
-  margin-right: 0%;
-  width: 100%;
+
+.text{
+  font-family: Playfair+Display;
+  background-color: beige;
+  color: #333;
+  margin-top: 5%;
+  text-align:start;
+  margin-left: 3%;
+  margin-right: 3%;
   font-size: 20px;
-}
-aside {
-  background-color: #f9f9f9;
+  border-radius: 2%;
   padding: 20px;
-  border-radius: 8px;
-}
-
-address {
-  font-style: normal;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-
-a {
-  color: #0056b3;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 

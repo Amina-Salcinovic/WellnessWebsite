@@ -1,0 +1,32 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:beige;
+    padding: 15px;
+    }
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+     }
+nav li {
+   padding 5px 10px;
+   display: inline-block;
+   margin-right: 50px;
+     }
+nav a {
+   text-decoration: none;
+   color: #333;
+     }
+h2{
+    padding-top: 5%;
+}
+.container1{
+    background-color:beige;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    font-size: 20px;
+  }

@@ -32,12 +32,12 @@ h1{
   background-color: beige;
   color: #333;
   margin-top: 5%;
-  text-align:inherit;
+  text-align:start;
   margin-left: 3%;
   margin-right: 3%;
   font-size: 20px;
   border-radius: 2%;
-
+  padding: 20px;
 }
 .container{
   background-color:beige;
@@ -45,4 +45,10 @@ h1{
   margin-right: 0%;
   width: 100%;
   font-size: 20px;
+}
+.picture{
+  margin-left: 5%;
+}
+.video{
+  margin-left: 30%;
 }
