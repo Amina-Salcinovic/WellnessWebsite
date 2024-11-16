@@ -3,13 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Wellness Center</title>
+    <title>Contact</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="stil10.css">
-    <link rel="stylesheet" media="print" href="print.css">
-    <link rel="stylesheet" media="screen" href="screen.css">
-    <link rel="stylesheet" media="screen and (min-width: 480px)" href="example1.css">
-    <link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 900px)" href="example2.css">
 
 </head>
 <body>
@@ -25,7 +21,7 @@
     
     <div class="container mt-5">
         <h2 class="text-center mb-4">Contact Us</h2>
-        <form>
+        <form method="post" action="https://jsonplaceholder.typicode.com/posts" >
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Enter your name " required>
@@ -57,11 +53,11 @@
             </div>
             <div class="mb-3">
                 <label for="dob" class="form-label">Date of birth</label>
-                <input type="date" class="form-control" id="dob" >
+                <input type="date" class="form-control" id="dob">
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3" placeholder="Enter your messag" required></textarea>
+                <textarea class="form-control" id="message" rows="3" placeholder="Enter your Message" required></textarea>
             </div>
             <div class="mb-3">
                 <label for="suggestions" class="form-label">Suggestions</label>
@@ -77,10 +73,15 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-
 <hr>
 <div class="container1">
     <footer>
+        <address>
+            Butmirska cesta 18, Ilidža<br>
+            Email: <a href="wellnesscenter@gmail.com">wellnesscenter@gmail.com</a><br>
+            Phone: <a href="tel: +33675903">+33 675 903</a>
+        </address>
+        <hr>
         <p>Foundations of Web Development</p>
         <p>Amina Salčinović</p>
     </footer>

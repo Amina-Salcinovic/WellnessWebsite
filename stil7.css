@@ -15,18 +15,26 @@ nav ul {
 
 nav li {
    display: inline-block;
-   display: inline-block;
-   margin-right: 50px;
+   margin-right: 30px;
      }
 
 nav a {
    text-decoration: none;
    color: #333;
      }
+nav a:hover{
+  color:brown;
+  background-color: burlywood;
+  border-radius: 5%;
+ }
 
+a:hover{
+  color: brown;
+  background-color: rgb(186, 186, 167);
+  border-radius: 5%;
+}
 div{
-  font-family: Playfair+Display;
-  
+  font-family: Playfair+Display, serif;
   color: #333;
   margin-top: 5%;
   text-align: start;
@@ -41,11 +49,21 @@ h3{
 
 
 .picture{
-  margin-left: 6%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.picture img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 30%;
 }
 
 .text{
-  font-family: Playfair+Display;
+  font-family: Playfair+Display, serif;
   background-color: beige;
   color: #333;
   margin-top: 5%;
@@ -56,4 +74,39 @@ h3{
   border-radius: 2%;
   padding: 20px;
 }
+.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.picture1{
+  width: 100%;
+  max-width: 800px; 
+  align-items: center;
+}
+
+
+@media (max-width: 767px) {
+  body {
+      font-size: 14px;
+  }
+ 
+}
+/*mobitel*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+      font-size: 16px;
+  }
+  
+}
+/*tablet*/
+@media (min-width: 1024px) {
+  body {
+      font-size: 18px; 
+  }
+
+}
+/*laptop*/
+
 
