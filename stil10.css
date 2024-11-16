@@ -12,16 +12,22 @@ nav ul {
    padding: 0;
      }
 nav li {
-   padding 5px 10px;
    display: inline-block;
-   margin-right: 50px;
+   margin-right: 20px;
      }
 nav a {
    text-decoration: none;
    color: #333;
      }
+nav a:hover{
+  color:brown;
+  background-color: burlywood;
+  border-radius: 5%;
+
+}
 h2{
-    padding-top: 5%;
+    padding-top: 8%;
+    
 }
 .container1{
     background-color:beige;
@@ -29,4 +35,28 @@ h2{
     margin-right: 0%;
     width: 100%;
     font-size: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+  body {
+      font-size: 14px;
   }
+ 
+}
+/*mobitel*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+      font-size: 16px;
+  }
+  
+}
+/*tablet*/
+@media (min-width: 1024px) {
+  body {
+      font-size: 18px; 
+  }
+
+}
+/*laptop*/
