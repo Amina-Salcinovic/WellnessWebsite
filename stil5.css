@@ -1,0 +1,119 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:beige;
+    padding: 15px;   
+    }
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: start;
+     }
+nav li {
+   display: inline-block;
+   margin-right: 20px;
+     }
+nav a {
+   text-decoration: none;
+   color: #333;
+     }
+nav a:hover{
+    color:brown;
+    background-color: burlywood;
+    border-radius: 5%;
+    }
+a:hover{
+    color: brown;
+    background-color: rgb(186, 186, 167);
+    border-radius: 5%;
+    }
+h1{
+   padding: 15px;
+   font-family: Playfair+Display, serif;
+}
+div{
+    font-family: Playfair+Display, serif;
+    background-color: white;
+    color: #333;
+    text-align: start;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.text1{
+    text-align: start;
+    font-family: Playfair+Display, serif;
+    background-color: beige;
+    color: #333;
+    margin-top: 5%;
+    text-align:start;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+.text3, .text5, .text7, .text9{
+    text-align: start;
+    font-family: Playfair+Display, serif;
+    background-color: rgb(228, 228, 189);
+    color: #333;
+    margin-top: 5%;
+    text-align:start;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 20px;
+    padding: 20px;
+}
+.text2, .text4, .text6, .text8, .text10{
+        font-family: Playfair+Display, serif;
+        background-color:rgb(209, 209, 179);
+        color: #333;
+        margin-top: 5%;
+        text-align:start;
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 20px; 
+        padding: 20px;
+        margin-bottom: 3%;
+    
+}
+.container{
+    background-color: beige;
+}
+.container1{
+    background-color:beige;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 20px;
+    padding: 10px;
+    
+  }
+
+  @media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+   
+  }
+  /*mobitel*/
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+    
+  }
+  /*tablet*/
+  @media (min-width: 1024px) {
+    body {
+        font-size: 18px; 
+    }
+  
+  }
+  /*laptop*/
+ 
