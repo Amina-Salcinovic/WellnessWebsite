@@ -94,6 +94,63 @@ div{
     
   }
 
+.toggle-btn {
+    background-color: beige;
+    border: 1px solid brown;
+    color: brown;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    text-align: left;
+   
+}
+
+.toggle-btn:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+.toggle-content {
+    display: none;
+    padding: 10px 20px;
+    border-left: 3px solid brown;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+}
+
+button.theme-toggle-button {
+    padding: 10px 20px;
+    background-color: #eac986;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.theme-toggle-button:hover {
+    background-color: #b69f64;
+  }
+  
+  /* Dark theme */
+  body.dark-theme {
+    background-color: #3c3b3b;
+    color: white;
+  }
+  
+  nav.dark-theme {
+    background-color: #333;
+  }
+  
+  button.theme-toggle-button.dark-theme {
+    background-color: #e3cfa3;
+  }
+  
   @media (max-width: 767px) {
     body {
         font-size: 14px;

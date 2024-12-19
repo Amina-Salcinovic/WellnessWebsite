@@ -38,6 +38,34 @@ h2{
     padding: 20px;
 }
 
+
+button.theme-toggle-button {
+  padding: 10px 20px;
+  background-color: #eac986;
+  color: rgb(3, 1, 8);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.theme-toggle-button:hover {
+  background-color: #b69f64;
+}
+
+body.dark-theme {
+  background-color: #d6dba17c;
+  color: rgba(15, 15, 15, 0.189);
+}
+
+nav.dark-theme {
+  background-color: #333;
+}
+
+button.theme-toggle-button.dark-theme {
+  background-color: #e3cfa3;
+}
+
+
 @media (max-width: 767px) {
   body {
       font-size: 14px;
