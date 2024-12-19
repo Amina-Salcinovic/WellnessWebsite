@@ -3,7 +3,7 @@ const form = document.getElementById('contactForm');
         const passwordInput = document.getElementById('password');
         const passwordStrength = document.getElementById('passwordStrength');
 
-        // Email validation
+        /* Email validation */
         emailInput.addEventListener('input', function () {
             if (!emailInput.checkValidity()) {
                 emailInput.classList.add('is-invalid');
@@ -12,8 +12,8 @@ const form = document.getElementById('contactForm');
             }
         });
 
-        // Password strength validation
-        passwordInput.addEventListener('input', function () {
+        /* Password */
+            passwordInput.addEventListener('input', function () {
             const result = zxcvbn(passwordInput.value);
             let strengthText;
             switch (result.score) {
