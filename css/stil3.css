@@ -38,11 +38,16 @@ h1{
   color: #333;
   margin-top: 5%;
   text-align:start;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 0%;
+  margin-right: 0%;
   font-size: 20px;
   border-radius: 2%;
   padding: 20px;
+
+  background-color: var(--bg-color); /*theme switch*/
+  color: var(--text-color);
+  font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s, color 0.3s;
 
 }
 .container{
@@ -81,6 +86,15 @@ a {
   margin: 0 auto;
 }
 
+:root {     /*theme switcher**/
+  --bg-color: beige;
+  --text-color: #333;
+  --button-bg: #eac986;
+  --button-text: white;
+}
+
+
+
 button.theme-toggle-button {
   padding: 10px 20px;
   background-color: #eac986;
@@ -93,20 +107,13 @@ button.theme-toggle-button {
 button.theme-toggle-button:hover {
   background-color: #b69f64;
 }
-
-/* Dark theme */
-body.dark-theme {
-  background-color: #3c3b3b;
-  color: white;
+.dark-theme {
+  --bg-color: #333;
+  --text-color: beige;
+  --button-bg: #555;
+  --button-text: #eac986;
 }
 
-nav.dark-theme {
-  background-color: #333;
-}
-
-button.theme-toggle-button.dark-theme {
-  background-color: #e3cfa3;
-}
 /*gallery*/
 .container{
   width: 100%;
@@ -115,6 +122,11 @@ button.theme-toggle-button.dark-theme {
   align-items: center;
   justify-content: center;
   padding: 50px 8%;
+
+  background-color: var(--bg-color); /*theme switch*/
+  color: var(--text-color);
+  font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s, color 0.3s;
 }
 .gallery{
   display: grid;
@@ -150,6 +162,17 @@ button.theme-toggle-button.dark-theme {
   cursor: pointer;
 }
 
+/*toastr*/
+#toast-container .toast-success {
+  background-color: #28a745;
+  color: white;
+}
+
+#toast-container .toast {
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
 @media (max-width: 767px) {
   body {
       font-size: 14px;
