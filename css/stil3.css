@@ -173,6 +173,16 @@ button.theme-toggle-button:hover {
   font-size: 16px;
   font-family: 'Arial', sans-serif;
 }
+/*api*/
+input {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.weather_description {
+  color: white;
+  margin-top: 2rem;
+}
 @media (max-width: 767px) {
   body {
       font-size: 14px;
