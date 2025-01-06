@@ -1,0 +1,120 @@
+body{
+    background-color: beige;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:beige;
+    padding: 15px;
+    }
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: start;
+     }
+
+nav li {
+   display: inline-block;
+   margin-right: 20px;
+     }
+
+nav a {
+   text-decoration: none;
+   color: #333;
+     }
+nav a:hover{
+    color:brown;
+    background-color: burlywood;
+    border-radius: 5%;
+}
+.titleforweather{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+
+.weatherInput {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+    color: rgb(122, 130, 65);
+    font-size: 15px;
+    background-color: rgb(70, 70, 55);
+    border: 1px solid black;
+    border-radius: 5px;
+    display: table;
+    margin-top: 15%;
+    padding: 60px;
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    padding: 1rem;
+    width: 100%; 
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #d3c88d;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 100%; 
+}
+
+button:hover {
+    background-color: #a1a579c7;
+}
+
+.weather_description {
+    color: rgb(210, 164, 164);
+    margin-top: 2rem;
+}
+
+#city, #weather {
+    font-weight: bold;
+}
+
+#error {
+    color: #ff4d4d;
+    font-size: 14px;
+}
+
+.weatherInput h5, .weatherInput h3 {
+    margin: 0;
+}
+
+
+.weatherInput > * {
+    display: block;
+    margin: 10px 0;
+}
+
+.weatherInput button {
+    margin-top: 10px;
+}
+
+.weatherInput div, .weatherInput h3, .weatherInput h5 {
+    display: table-row;
+    text-align: center;
+}
+
+.weather_description {
+    margin-top: 2rem;
+    text-align: left; 
+    display: table-row;
+    color: rgb(74, 62, 18);
+}

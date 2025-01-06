@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="stil7.css">
+    <link rel="stylesheet" href="./css/stil7.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -18,7 +18,8 @@
             <li><a href="membership.html">Membership</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="contactus.html">Contact</a></li>
-            <button class="theme-toggle-button">Theme switch</button>
+            <li><a href="weather.html">Weather</a></li>
+            <button class="theme-toggle-button" onclick="toggleTheme()">Theme switch</button>
         </ul>
     </nav>
 <div class="text">
@@ -37,7 +38,21 @@ Mindfulness is one of the greatest gifts to the mind. It is simply the act of be
 <li>Mindful activities:</li> Walking, eating, even dishwashing; but whatever activity you're doing, try to immerse yourself completely into that while avoiding distractions. Any activity of this sort certainly trains the brain to focus itself on living in the moment. 
 </ol>
 </p> 
-<a href="#" class="view-more" data-article="mindfulness">View More</a>
+<div class="blog-post" data-id="1">
+    <h2>When and how often should I practice mindfulness exercises?</h2>
+    <p>It depends on what kind of mindfulness exercise you plan to do. Simple mindfulness exercises can be practiced anywhere and anytime. Research indicates that engaging your senses outdoors is especially beneficial.</p>
+    <p>For more structured mindfulness exercises, such as body scan meditation or sitting meditation, you'll need to set aside time when you can be in a quiet place without distractions or interruptions.</p>
+    <button class="view-more" data-id="1">View More</button>
+    <div class="additional-content" id="content-1" style="display: none;">
+      <p> You might choose to practice this type of exercise early in the morning before you begin your daily routine.</p>
+      <p>Aim to practice mindfulness every day for about six months. Over time, you might find that mindfulness becomes effortless. Think of it as a commitment to reconnecting with and nurturing yourself.</p>
+      <p>You can also try more structured mindfulness exercises, such as:<br>
+
+        Body scan meditation. <br>Lie on your back with your legs extended and arms at your sides, palms facing up. Focus your attention slowly and deliberately on each part of your body, in order, from toe to head or head to toe. Be aware of any sensations, emotions or thoughts associated with each part of your body.
+        <br>Sitting meditation. <br>Sit comfortably with your back straight, feet flat on the floor and hands in your lap. Breathing through your nose, focus on your breath moving in and out of your body. If physical sensations or thoughts interrupt your meditation, note the experience and then return your focus to your breath.
+        <br>Walking meditation. <br>Find a quiet place 10 to 20 feet in length, and begin to walk slowly. Focus on the experience of walking, being aware of the sensations of standing and the subtle movements that keep your balance. When you reach the end of your path, turn and continue walking, maintaining awareness of your sensations.</p>
+    </div>
+  </div>  
 </article>
 <article>
 <h3>Physical Wellness: Move Your Body, Nourish Your Health</h3>
@@ -50,9 +65,9 @@ Crown sleep with priority. Sleep is the time that your body repairs itself physi
 </p>
 </article>
 <div class="picture">
-    <img src="pexels-elly-fairytale-3822191.jpg" alt="physical wellness">
-    <img src="pexels-elly-fairytale-3823039.jpg" alt="physical wellness">
-    <img src="wellness4.png" alt="physical wellness">
+    <img src="./galerija1/pexels-elly-fairytale-3822191.jpg" alt="physical wellness">
+    <img src="./galerija1/pexels-elly-fairytale-3823039.jpg" alt="physical wellness">
+    <img src="./galerija1/wellness4.png" alt="physical wellness">
 </div>
 <article>
 <h3>Spiritual Wellness: Connecting to Your Higher Self</h3>
@@ -75,7 +90,6 @@ Emotional wellness involves some kind of conscious awareness and expression of e
     <li>Practice self-care:</li> Self-care is not just about bubble baths. It is also about creating space and giving yourself time to process your experience. It could be napping, indulging in a favorite pastime, or sitting quietly with a cup of tea. 
 </ol>
 </p>
-<a href="#" class="view-more" data-article="physical-wellness">View More</a>
 </article>
 <article>
 <h3>Balance: The Key to Sustainable Wellness</h3>
@@ -93,6 +107,10 @@ So while you breathe a breath of relief, listen to your body and honor your jour
 <p>
     If you want to read more about this, you can visit <a href=" https://wellhub.com/en-us/blog/increasing-membership/health-and-wellness-bloggers-to-follow/ " target="_blank">this page.</a>
 </p>
+<h2>Blog Posts</h2>
+<button id="loadBtn">Load Posts</button>
+<div id="content"></div>
+<br>
 <div class="container">
 <img src="https://www.weinstrasse.com/images/cms/main/754x435/B-AdobeStock-benessere-wellness-relax-schwimmbad-person-143897447(1).jpg" alt="Wellness picture" class="picture1">
 <div id="offline-message" style="display: none; color: rgb(238, 255, 0);">
@@ -106,7 +124,9 @@ So while you breathe a breath of relief, listen to your body and honor your jour
     </footer>
     </div>
 </div>
-<script src="script3.js"></script>
-<script src="script.js"></script>
+<script src="./javascript/script3.js"></script>
+<script src="./javascript/script.js"></script>
+<script src="./javascript/script6.js"></script>
+<script src="./javascript/script7.js"></script>
 </body>
 </html>

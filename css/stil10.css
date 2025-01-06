@@ -29,6 +29,25 @@ h2{
     padding-top: 8%;
     
 }
+
+/*form*/
+#successMessage {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  display: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+body{
+  background-color: var(--bg-color); /*theme switch*/
+  color: var(--text-color);
+  font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s, color 0.3s;
+}
 .container1{
     background-color:beige;
     margin-left: 0%;
@@ -36,13 +55,22 @@ h2{
     width: 100%;
     font-size: 20px;
     padding: 20px;
+   
 }
+
+:root {     /*theme switcher**/
+  --bg-color: beige;
+  --text-color: #333;
+  --button-bg: #eac986;
+  --button-text: white;
+}
+
 
 
 button.theme-toggle-button {
   padding: 10px 20px;
   background-color: #eac986;
-  color: rgb(3, 1, 8);
+  color: white;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -51,18 +79,11 @@ button.theme-toggle-button {
 button.theme-toggle-button:hover {
   background-color: #b69f64;
 }
-
-body.dark-theme {
-  background-color: #d6dba17c;
-  color: rgba(15, 15, 15, 0.189);
-}
-
-nav.dark-theme {
-  background-color: #333;
-}
-
-button.theme-toggle-button.dark-theme {
-  background-color: #e3cfa3;
+.dark-theme {
+  --bg-color: #333;
+  --text-color: beige;
+  --button-bg: #555;
+  --button-text: #eac986;
 }
 
 

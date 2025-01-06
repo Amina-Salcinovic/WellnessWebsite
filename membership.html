@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memberhip</title>
-    <link rel="stylesheet" href="stil6.css">
+    <link rel="stylesheet" href="./css/stil6.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -19,13 +19,14 @@
         <li><a href="membership.html">Membership</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="contactus.html">Contact</a></li>
-        <button class="theme-toggle-button">Theme switch</button>
+        <li><a href="weather.html">Weather</a></li>
+        <button class="theme-toggle-button" onclick="toggleTheme()">Theme switch</button>
     </ul>
     </nav>
 
 <div class="text"><h1>Membership - Become a Member and Enjoy Exclusive Benefits! </h1>
     <div class="picture">
-       <img src="membershipslika.webp" alt="wellness membership">
+       <img src="galerija1/membershipslika.webp" alt="wellness membership">
     </div>
 <h2>
     Our wellness community offers various membership packages to give you access to all our services and programs at discounted rates. Join today and start living healthier, happier, and more balanced!
@@ -87,6 +88,20 @@
 <p id="text2">Become a member of our wellness community and enjoy individualized attention, exclusive benefits, and specialized programs that will help you improve your physical, mental, and emotional health. Whether you’re a wellness beginner or already experienced, we have everything you need to achieve balance and vitality.<br>We can't wait for you to join us, you can find us <a href="location.html">here.</a> </p>
 <p>If you have any questions you can contact us via email: <a href="mailto:amela.vatres@stu.ibu.edu.ba" target="_blank">amela.vatres@stu.ibu.edu.ba</a></p>
 </p>
+<p id="message"></p>
+
+<table id="data-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Dynamically filled table rows -->
+    </tbody>
+</table>
 <hr>
 <div class="container1">
     <footer>
@@ -95,6 +110,8 @@
     </footer>
     </div>
 </div>
-<script src="script2.js"></script>
+<script src="./javascript/script2.js"></script>
+<script src="./javascript/script3.js"></script>
+<script src="./javascript/script8.js"></script>
 </body>
 </html>
